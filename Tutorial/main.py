@@ -14,13 +14,13 @@ skills_app = Flask(__name__)
 
 @skills_app.route("/")
 def homepage():
-    return render_template("homepage.html", pagetitle ="homepage")
+    return render_template("homepage.html", title ="home Page")
 
 
 
 @skills_app.route("/about")
 def about():
-    return render_template('about.html', pagetitle ="About")
+    return render_template('about.html', title ="About Us")
 
 
 
