@@ -10,7 +10,7 @@ from flask import Flask , render_template
 
 skills_app = Flask(__name__)
 
-my_skills = [("Html", 80), ("CSS", 75), ("Python", 95)]
+my_skills = [("Html", 80), ("CSS", 75), ("Python", 95), ("Django", 80)]
 
 
 @skills_app.route("/")
